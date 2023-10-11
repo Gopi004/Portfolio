@@ -1,0 +1,48 @@
+
+h1{
+  font-weight: 1000;
+  color: rgb(46, 196, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+  height: 80px;
+  width: 80px ;
+  border-radius: 40px;
+  object-fit: cover;
+  transition: 0.4s ease-in-out;
+}
+#logo:hover{
+  transform: translateY(-10px)
+}
+#post{
+  height: 350px;
+  width: auto;
+  border-radius: 10px;
+}
+#main{
+  width: 50%;
+  border: gray 1px solid;
+  border-radius: 30px;
+  padding: 30px ;
+  margin: 30px;
+  display: flex;
+  gap: 20px;
+}
+.name{
+  font-weight: 300;
+  color: rgb(85, 85, 85);
+}
+.normal{
+  font-weight: 900;
+  color: white;
+}
+#info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
